@@ -13,8 +13,8 @@ console.info("MongoDB connected");
 
 const app = express();
 
-app.listen(800, ()=>{
-    console.info("Server listeninng on port 800")
+app.listen(3000, ()=>{
+    console.info("Server listeninng on port 3000")
 });
 
 const server = new ApolloServer({
